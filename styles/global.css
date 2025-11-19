@@ -1,71 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+@font-face {
+  font-family: "NomeDaMinhaFonte";
+  src: url("../assets/fonts/Lato-Bold.ttf"),
+    url("../assets/fonts/Lato-Italic.ttf");
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato" sans-serif;
+}
+
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+
 }
 
 .container-cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 50px;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
 }
 
 .logo {
-    font-size: 1.8rem; font-weight: bold; color: #ffffff;
-
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .logo span {
-    color: #2b858b;
+  color: #2b858b;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navegacao ul {
-    display: flex;
-    list-style: none;
-
+  display: flex;
+  list-style: none;
 }
 
 .navegacao ul li {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .navegacao ul li a {
-    color: #ffffff; transition: color 0.3s;
-    font-size: 1.2rem;
+  color: #ffffff;
+  transition: color 0.3s;
+  font-size: 1.2rem;
 }
 
 .navegacao ul li a:hover {
-    color: #2b858b;
+  color: #2b858b;
 }
 
 .botao-contorno {
-    padding: 8px 18px;
-    border-radius: 10px;
-    border: 2px solid #ffc857;
-    font-size: 1rem;
-    font-weight: bold;
-    background: none;
-    transition: 0.3s;
-    color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 10px;
+  border: 2px solid #ffc857;
+  font-size: 1rem;
+  font-weight: bold;
+  background: none;
+  transition: 0.3s;
+  color: #ffffff;
 }
 
 .botao-contorno:hover {
-    background-color: #ffc857;
-    cursor: pointer;
-    color: #0a0a0a;
+  background-color: #ffc857;
+  cursor: pointer;
+  color: #0a0a0a;
 }
-
-
-
